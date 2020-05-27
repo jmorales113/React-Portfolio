@@ -26,7 +26,7 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a href="#experience" className="nav-link">
+            <a href="#education" className="nav-link">
               Education
             </a>
           </li>
