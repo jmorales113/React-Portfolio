@@ -1,5 +1,7 @@
 import React from "react";
 import weatherImage from "../assets/Weather.jpg"
+import coFit19Image from "../assets/CoFit-19.png"
+import dailyPlanner from "../assets/DailyPlanner.jpg"
 
 function Portfolio() {
   return (
@@ -15,7 +17,7 @@ function Portfolio() {
             data-aos="fade-right"
             data-aos-delay={300}
           >
-            <img src={weatherImage} alt="" />
+            <img src={weatherImage} alt="Weather or Not" />
           </div>
           <div
             className="portfolio-description"
@@ -48,7 +50,7 @@ function Portfolio() {
             data-aos="fade-left"
             data-aos-delay={1200}
           >
-            <img src="assets/CoFit-19.png" alt="" />
+            <img src={coFit19Image} alt="CoFit-19" />
           </div>
         </div>
         <div className="portfolio-item">
@@ -57,7 +59,7 @@ function Portfolio() {
             data-aos="fade-right"
             data-aos-delay={1500}
           >
-            <img src="assets/DailyPlanner.jpg" alt="" />
+            <img src={dailyPlanner} alt="" />
           </div>
           <div
             className="portfolio-description"

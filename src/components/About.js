@@ -7,7 +7,7 @@ function About() {
     <section className="about" id="about">
       <div className="container">
         <div className="profile-img" data-aos="fade-right" data-aos-delay={300}>
-          <img src={profileImage} alt="" />
+          <img src={profileImage} alt="ProfileImage" />
         </div>
         <div
           className="about-details"
@@ -23,7 +23,7 @@ function About() {
             change. I was employed in the field of education for about 10 years.
             I thought I wanted to be a teacher but when I eventually moved up to
             a Substitute Teacher, I realized it wasn't for me and I was unhappy.
-            So, I decided I needed to make a change and I have always been
+            I decided I needed to make a change and have always been
             fascinated with computers and tech so I decided to give coding a
             shot and it's been the best decision I've ever made. I am currently
             enrolled in UCLA's Extension Coding Bootcamp.
