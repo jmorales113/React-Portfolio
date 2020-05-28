@@ -1,5 +1,7 @@
 import React from "react";
 import image from "../assets/IMG_4382.jpg"
+import resume from "../assets/JorgeResume.pdf"
+
 function About() {
   return (
     <section className="about" id="about">
@@ -42,7 +44,7 @@ function About() {
                 </a>
               </li>
               <li>
-                <a href="assets/JorgeResume.pdf" className="icon-link">
+                <a href={resume} className="icon-link">
                   <i className="far fa-file" />
                 </a>
               </li>
