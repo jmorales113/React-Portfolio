@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
 
 function Nav() {
+  useEffect(() => {
+    AOS.init({
+      easing: "ease",
+      duration: 1800,
+    });
+  });
+
   return (
     <div>
       <div className="menu-toggler">

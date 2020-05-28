@@ -2,13 +2,17 @@ import React from "react";
 
 function About() {
   return (
-    <section class="about" id="about">
-      <div class="container">
-        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-          <img src="assets/IMG_4382.jpg" alt="" />
+    <section className="about" id="about">
+      <div className="container">
+        <div className="profile-img" data-aos="fade-right" data-aos-delay={300}>
+          <img src="../assets/IMG_4382.jpg" alt="" />
         </div>
-        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
-          <div class="about-heading">
+        <div
+          className="about-details"
+          data-aos="fade-left"
+          data-aos-delay={600}
+        >
+          <div className="about-heading">
             <h1>About</h1>
             <h6>Myself</h6>
           </div>
@@ -22,24 +26,24 @@ function About() {
             shot and it's been the best decision I've ever made. I am currently
             enrolled in UCLA's Extension Coding Bootcamp.
           </p>
-          <div class="social-media">
-            <ul class="nav-list">
+          <div className="social-media">
+            <ul className="nav-list">
               <li>
-                <a href="https://github.com/jmorales113" class="icon-link">
-                  <i class="fab fa-github-square"></i>
+                <a href="https://github.com/jmorales113" className="icon-link">
+                  <i className="fab fa-github-square" />
                 </a>
               </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/jorge-morales-b1221577/"
-                  class="icon-link"
+                  className="icon-link"
                 >
-                  <i class="fab fa-linkedin"></i>
+                  <i className="fab fa-linkedin" />
                 </a>
               </li>
               <li>
-                <a href="assets/JorgeResume.pdf" class="icon-link">
-                  <i class="far fa-file"></i>
+                <a href="assets/JorgeResume.pdf" className="icon-link">
+                  <i className="far fa-file" />
                 </a>
               </li>
             </ul>
