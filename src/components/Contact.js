@@ -8,7 +8,7 @@ function Contact() {
           <h1>Contact</h1>
           <h6>Let's work together</h6>
         </div>
-        <form action data-aos="fade-up" data-aos-delay={300}>
+        <form action="true" data-aos="fade-up" data-aos-delay={300}>
           <label htmlFor="name">Name</label>
           <input
             type="text"

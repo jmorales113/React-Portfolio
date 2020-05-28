@@ -1,7 +1,7 @@
 import React from "react";
-import weatherImage from "../assets/Weather.jpg"
-import coFit19Image from "../assets/CoFit-19.png"
-import dailyPlanner from "../assets/DailyPlanner.jpg"
+import weatherImage from "../assets/Weather.jpg";
+import coFit19Image from "../assets/CoFit-19.png";
+import dailyPlanner from "../assets/DailyPlanner.jpg";
 
 function Portfolio() {
   return (
