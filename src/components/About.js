@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/IMG_4382.jpg"
+import profileImage from "../assets/IMG_4382.jpg"
 import resume from "../assets/JorgeResume.pdf"
 
 function About() {
@@ -7,7 +7,7 @@ function About() {
     <section className="about" id="about">
       <div className="container">
         <div className="profile-img" data-aos="fade-right" data-aos-delay={300}>
-          <img src={image} alt="" />
+          <img src={profileImage} alt="" />
         </div>
         <div
           className="about-details"

@@ -1,4 +1,5 @@
 import React from "react";
+import weatherImage from "../assets/Weather.jpg"
 
 function Portfolio() {
   return (
@@ -14,7 +15,7 @@ function Portfolio() {
             data-aos="fade-right"
             data-aos-delay={300}
           >
-            <img src="assets/Weather.jpg" alt="" />
+            <img src={weatherImage} alt="" />
           </div>
           <div
             className="portfolio-description"
