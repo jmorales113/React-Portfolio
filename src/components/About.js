@@ -1,11 +1,11 @@
 import React from "react";
-
+import image from "../assets/IMG_4382.jpg"
 function About() {
   return (
     <section className="about" id="about">
       <div className="container">
         <div className="profile-img" data-aos="fade-right" data-aos-delay={300}>
-          <img src="../assets/IMG_4382.jpg" alt="" />
+          <img src={image} alt="" />
         </div>
         <div
           className="about-details"
